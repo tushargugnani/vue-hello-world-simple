@@ -2,23 +2,23 @@
 
 ## Project setup
 ```
-npm install
+npm install --save vue-hello-world-simple
 ```
 
-### Compiles and hot-reloads for development
+## Import
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+import HelloWorldSimple from 'vue-simple-hello-world'
 ```
 
-### Lints and fixes files
+
+### Install Globally
 ```
-npm run lint
+Vue.use(HelloWorldSimple)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Use Components Locally
+```
+import HelloWorld from 'vue-simple-hello-world'
+```
+
+
